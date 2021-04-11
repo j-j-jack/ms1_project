@@ -9,7 +9,7 @@
 }
 /*--------------------------------------------------------------------------------------------------- colours */
 .nav-bg-color{
-	background-color: (100, 100, 100);
+	background-color: rgb(100, 100, 100);
 }
 
 
@@ -91,6 +91,27 @@ nav{
 	
 }
 
+/*--------------------------------------------------------------------------------------------------- About page */
+.thumbnail{
+	filter: brightness(60%);
+	margin-bottom: 10vh;
+}
+
+.thumbnail:hover{
+	filter: brightness(100%);
+}
+#thumbnail-1{
+	width: 70%;
+}
+#thumbnail-2{
+	width: 70%;
+}
+
+#thumbnail-3{
+	width: 70%;
+}
+
+
 /*--------------------------------------------------------------------------------------------------- footer */
 
 footer{
@@ -138,6 +159,21 @@ footer h2{
 	font-size: 200%;
 }
 
+#thumbnail-1{
+	margin-bottom: 1vh;
+	padding-bottom: 1vh;
+}
+#thumbnail-2{
+	margin-top: 1vh;
+	padding-top: 1vh;
+	margin-bottom: 1vh;
+	padding-bottom: 1vh;
+}
+
+#thumbnail-3{
+	margin-top: 1vh;
+	padding-top: 1vh;
+}
 
 }
 
