@@ -1,14 +1,38 @@
+
+
 /*--------------------------------------------------------------------------------------------------- fonts */
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
 
-
+:root{
+	--cafe-map: rgb(252, 235, 146);
+}
 /*--------------------------------------------------------------------------------------------------- colours */
+.nav-bg-color{
+	background-color(100, 100, 100);
+}
+
+
 
 /*--------------------------------------------------------------------------------------------------- General */
 body{
+    color: rgb(240, 120, 22);
 	font-family: "play", verdana;
+	background: url("../images/background-1.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-color: rgb(100, 100, 100);
+	
 }
+
+.text-center{
+	text-align: center;
+}
+
+.page-content{
+	padding-top: 20vh;
+	}
+
 
 /*--------------------------------------------------------------------------------------------------- Navbar */
 
@@ -17,7 +41,6 @@ body{
 nav{
     height: 15%;
 }
-
 .navbar-logo{  /* media queries may be necessary for extremely low screen sizes */
 	position: fixed;
 	z-index: 1031; /*bootstrap fixed z-index is 1030 */
@@ -25,10 +48,47 @@ nav{
 	top: 2%
 }
 
-/*--------------------------------------------------------------------------------------------------- body */
+/*--------------------------------------------------------------------------------------------------- home title */
 
-p {
-    color: rgb(240, 120, 22);
+#home-banner{
+	padding-bottom: 5vh;
+	margin-bottom: 5vh;
+}
+#home-title{
+	font-family: "Sarina", cursive;
+	text-align: center;
+	font-size: 500%;
+	color: rgb(19,224,255);
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
+	color: rgb(255, 148, 228);
+}
+
+#home-description{
+	color: rgb(121, 252, 158);
+}
+
+#order-button{
+	text-align: center;
+	margin-bottom: 20vh;
+}
+
+.home-page-map{
+	margin-top: 5vh;
+	width: 700;
+	height: 700;
+	
+	border: 0;
+}
+
+.location-info{
+	margin-top: -13vh;
+	color: var(--cafe-map);
+	margin-bottom: 2vh;
+	
 }
 
 /*--------------------------------------------------------------------------------------------------- footer */
@@ -49,7 +109,6 @@ footer h2{
 .social-icons a:hover{
 	text-decoration: none;
 }
-
 
 
 /*--------------------------------------------------------------------------------------------------- Media Queries */
@@ -73,9 +132,20 @@ footer h2{
 	display: inline-block;
 	margin: 0;
 	padding-left: 12%;
+	
 	max-width: 24%;
 	text-align: left;
 	font-size: 200%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 991px)
+{
+	.location-info{
+	margin-top: 5vh;
 }
 }
 
