@@ -111,6 +111,23 @@ nav{
 	width: 70%;
 }
 
+#richie-photo{
+	width: 80%;
+}
+
+#cafe-photo{
+	width: 80%;
+}
+#ingredients-photo{
+	width: 80%;
+}
+
+#terms{
+	height: 20vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
 
 /*--------------------------------------------------------------------------------------------------- footer */
 
