@@ -26,14 +26,14 @@
 
 			<div class="collapse navbar-collapse" id="navToggle">
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-					<li class="nav-item ml-auto mr-2">
-						<a class="nav-link" href="index.html">Home </a>
-					</li>
-					<li class="nav-item ml-auto mr-2">
-						<a class="nav-link" href="order.html">Order/Enquire</a>
-					</li>
 					<li class="nav-item active ml-auto mr-2">
-					<a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item ml-auto mr-2">
+						<a class="nav-link" href="#">Order/Enquire</a>
+					</li>
+					<li class="nav-item ml-auto mr-2">
+					<a class="nav-link" href="#">About Us</a>
 					</li>
 					<li class="nav-item ml-auto">
 						<span class="navbar-text"><i class="fa fa-phone-square" aria-hidden="true"></i> - 05394555555</span>
@@ -47,31 +47,157 @@
            
     </header>
 	
-	<div class="container-xl page-content">
-		<section>
-			<div class="row">
+	
+	<div class="container-xl hidden-md-down page-content" id="about-nav-lg">
+		<div class="row">
 				<div class="col-12">
 					<h2 class="about-title">About us...</h2>
 				</div>
-				<div class="col-12">
-					<h3 class="gallery-title">Our Galleries</h3>
-                </div>
-            </div>
-				<div class="row">
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-1 my-sm-1">
-						<img src="assets/images/2018/cupcake-1.jpg" class="thumbnail" id="thumbnail-1" data-toggle="modal" data-target="#thumbnail-1-modal">					
+			</div>
+		<div class="row">
+			<div class="col-2">
+				<div class="nav flex-column nav-pills" id="about-nav-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active" id="about-nav-galleries-tab" data-toggle="pill" href="#about-nav-galleries" role="tab" aria-controls="about-nav-galleries" aria-selected="true">Galleries</a>
+					<a class="nav-link" id="about-nav-who-tab" data-toggle="pill" href="#about-nav-who" role="tab" aria-controls="about-nav-who" aria-selected="false">Who are we?</a>
+					<a class="nav-link" id="about-nav-what-tab" data-toggle="pill" href="#about-nav-what" role="tab" aria-controls="about-nav-what" aria-selected="false">What do we do?</a>
+					<a class="nav-link" id="about-nav-why-tab" data-toggle="pill" href="#about-nav-why" role="tab" aria-controls="about-nav-why" aria-selected="false">Why choose us?</a>
+					<a class="nav-link" id="about-nav-terms-tab" data-toggle="pill" href="#about-nav-terms" role="tab" aria-controls="about-nav-terms" aria-selected="false">Terms and conditions</a>
+				</div>
+			</div>
+			<div class="col-10">
+				<div class="tab-content" id="about-nav-tabContent">
+					<div class="tab-pane fade show active" id="about-nav-galleries" role="tabpanel" aria-labelledby="about-nav-galleries-tab">
+						<div class="row">
+							<div class="col-12">
+								<h3 class="gallery-title">Our Galleries</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-1 my-sm-1">
+								<img src="assets/images/2018/cupcake-1.jpg" class="thumbnail" id="thumbnail-1" data-toggle="modal" data-target="#thumbnail-1-modal">					
+							</div>
+							<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-3 mt-sm-1">
+								<img src="assets/images/2019/cupcake-1.jpg" class="thumbnail" id="thumbnail-2" data-toggle="modal" data-target="#thumbnail-2-modal">					
+							</div>
+							<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-5 mt-sm-1">
+								<img src="assets/images/2020/cupcake-1.jpg" class="thumbnail" id="thumbnail-3" data-toggle="modal" data-target="#thumbnail-3-modal">					
+							</div>
+						</div>
 					</div>
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-3 mt-sm-1">
-						<img src="assets/images/2019/cupcake-1.jpg" class="thumbnail" id="thumbnail-2" data-toggle="modal" data-target="#thumbnail-2-modal">					
+	  
+				<div class="tab-pane fade" id="about-nav-who" role="tabpanel" aria-labelledby="about-nav-who-tab">
+					<div class="row">
+						<div class="col text-center">
+							<h3>Who are we?</h3>
+						</div>
 					</div>
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-5 mt-sm-1">
-						<img src="assets/images/2020/cupcake-1.jpg" class="thumbnail" id="thumbnail-3" data-toggle="modal" data-target="#thumbnail-3-modal">					
-                    </div>
-                </div>
-					
+					<div class="row">
+						<div class="col-5 offset-1">
+							<img src="assets/images/richie-mulligan.jpg" id="richie-photo" class="mx-auto">
+						</div>
+						<div class="col-5">
+							<p>
+								In 2010 Richie Mulligan quit his job as a truck driver to open up a coffee and confectionary van called "Fast cakes". 
+								Along with his enthusiasm for good coffee, baking had been a long-time passion of his. So he sold his own cakes and creations 
+								on board the van. In 2014, encouraged by the popularity of his cupcakes in particular, he decided to open up Late night cakes - 
+								an all night cafe and bulk cupcake producer. Richie operated Speed cakes solo. Now, Late night cakes has 25 employees 
+								who work through the night to brighten up your day!
+							</p>
+						</div>
+					</div>
+				</div>
+	  
+				<div class="tab-pane fade" id="about-nav-what" role="tabpanel" aria-labelledby="about-nav-what-tab">
+					<div class="row">
+						<div class="col text-center">
+							<h3>What do we do?</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-5 offset-1">
+							<p>
+								We produce custom cupcakes in bulk for whatever your function might be - from birthday parties to apocalypse parties!
+								We bake through the night ready for pickup the following morning. This means that what you get is as fresh as it can 
+								possibly be. The cafe is opening from 9-10am daily for those who wish to taste some of the multitude of cupcakes we bake every night -
+								before making an order for your special occasion. We also run an all-night cafe. As a former lorry driver, Richie still holds a place 
+								in his heart for those still on the road. The cafe runs from 9pm to 7am and is a great place to sit down and chat with other 
+								drivers while savouring a cup of fine coffee and some of the delicious cakes.
+							</p>
+						</div>
+						<div class="col-5">
+							<img src="assets/images/cafe.jpg" id="cafe-photo" class="mx-auto">
+						</div>
+					</div>
+				</div>
 				
-			
-				<!-- Modal 1 -->
+      
+				<div class="tab-pane fade" id="about-nav-why" role="tabpanel" aria-labelledby="about-nav-why-tab">
+					<div class="row">
+						<div class="col text-center">
+							<h3>Why choose us?</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-5 offset-1">
+							<img src="assets/images/ingredients.jpg" id="ingredients-photo" class="mx-auto">
+						</div>
+						<div class="col-5">
+							<p>
+								We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+								of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+								for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+								do not hesitate to fill out the form and somebody will reply to you via email asap.
+							</p>
+							<button type="button" class="btn btn-outline-warning btn-lg text-center"><a href="order.html">Order now</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="about-nav-terms" role="tabpanel" aria-labelledby="about-nav-terms-tab">
+					<div class="row">
+						<div class="col-8 offset-2">
+							<div class="overflow-auto" id="terms">
+						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
+						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
+						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
+						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p><p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p><p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p><p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p><p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
+						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
+						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
+						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
+						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+					<!-- Modal 1 -->
 				<div class="modal fade" id="thumbnail-1-modal" tabindex="-1" aria-labelledby="thumbnail-1-modal-label" aria-hidden="true">
 					<div class="modal-dialog">
 						<div class="modal-content">
@@ -289,6 +415,32 @@
 					</div>
 				</div>
 			</div>
+			
+	<div class="container-xl page-content hidden-md-up">
+		<section>
+			<div class="row">
+				<div class="col-12">
+					<h2 class="about-title">About us...</h2>
+				</div>
+				<div class="col-12">
+					<h3 class="gallery-title">Our Galleries</h3>
+                </div>
+            </div>
+				<div class="row">
+					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-1 my-sm-1">
+						<img src="assets/images/2018/cupcake-1.jpg" class="thumbnail" id="thumbnail-1-b" data-toggle="modal" data-target="#thumbnail-1-modal">					
+					</div>
+					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-3 mt-sm-1">
+						<img src="assets/images/2019/cupcake-1.jpg" class="thumbnail" id="thumbnail-2-b" data-toggle="modal" data-target="#thumbnail-2-modal">					
+					</div>
+					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-5 mt-sm-1">
+						<img src="assets/images/2020/cupcake-1.jpg" class="thumbnail" id="thumbnail-3-b" data-toggle="modal" data-target="#thumbnail-3-modal">					
+                    </div>
+                </div>
+					
+				
+			
+
 		</section>
 		<section>
 			<div class="row">
@@ -297,7 +449,12 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5 offset-md-1">
+				<div class="col-md-5 offset-md-1 col-10 offset-1">
+					<p>
+						<img src="assets/images/richie-mulligan.jpg" id="richie-photo-b" class="mx-auto">
+					</p>
+				</div>
+				<div class="col-md-5 col-10 offset-1">
 					<p>
 						In 2010 Richie Mulligan quit his job as a truck driver to open up a coffee and confectionary van called "Fast cakes". 
 						Along with his enthusiasm for good coffee, baking had been a long-time passion of his. So he sold his own cakes and creations 
@@ -306,25 +463,46 @@
 						who work through the night to brighten up your day!
 					</p>
 				</div>
-				<div class="col-md-5">
-					<p>
-						<img src="assets/images/richie-mulligan.jpg" id="richie-photo" class="mx-auto">
-					</p>
-				</div>
 			</div>
 			
+			<div class="hidden-sm-down">
 			<div class="row">
 				<div class="col text-center">
 					<h3>What do we do?</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5 offset-1">
+				<div class="col-md-5 offset-md-1 col-10 offset-1">
 					<p>
-						<img src="assets/images/cafe.jpg" id="cafe-photo" class="mx-auto">
+						We produce custom cupcakes in bulk for whatever your function might be - from birthday parties to apocalypse parties!
+						We bake through the night ready for pickup the following morning. This means that what you get is as fresh as it can 
+						possibly be. The cafe is opening from 9-10am daily for those who wish to taste some of the multitude of cupcakes we bake every night -
+						before making an order for your special occasion. We also run an all-night cafe. As a former lorry driver, Richie still holds a place 
+						in his heart for those still on the road. The cafe runs from 9pm to 7am and is a great place to sit down and chat with other 
+						drivers while savouring a cup of fine coffee and some of the delicious cakes.
 					</p>
 				</div>
-				<div class="col-md-5 offset-md-1">
+				<div class="col-md-5 col-10 offset-1">
+					<p>
+						<img src="assets/images/cafe.jpg" id="cafe-photo-b" class="mx-auto">
+					</p>
+				</div>
+			</div>		
+			</div>
+			
+			<div class="hidden-sm-up">
+			<div class="row">
+				<div class="col text-center">
+					<h3>What do we do?</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-10 offset-1">
+					<p>
+						<img src="assets/images/cafe.jpg" id="cafe-photo-c" class="mx-auto">
+					</p>
+				</div>
+				<div class="col-10 offset-1">
 					<p>
 						We produce custom cupcakes in bulk for whatever your function might be - from birthday parties to apocalypse parties!
 						We bake through the night ready for pickup the following morning. This means that what you get is as fresh as it can 
@@ -335,6 +513,7 @@
 					</p>
 				</div>
 			</div>		
+			</div>
 			
 			<div class="row">
 				<div class="col text-center">
@@ -342,7 +521,12 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5 offset-md-1">
+				<div class="col-md-5 offset-md-1 col-10 offset-1">
+					<p>
+						<img src="assets/images/ingredients.jpg" id="ingredients-photo-b" class="mx-auto">
+					</p>
+				</div>
+				<div class="col-md-5 offset-md-1 col-10 offset-1">
 					<p>
 						We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
 						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
@@ -351,17 +535,11 @@
 					</p>
 					<button type="button" class="btn btn-outline-warning btn-lg text-center"><a href="order.html">Order now</a></button>
 				</div>
-				<div class="col-md-5">
-					<p>
-						<img src="assets/images/ingredients.jpg" id="ingredients-photo" class="mx-auto">
-					</p>
-				</div>
             </div>
         </section>
          <section>
 			<div class="row">
-				<div class="col-8 offset-2">
-					<div class="overflow-auto" id="terms">
+				<div class="col-8 offset-2 overflow-auto" id="termsb">
 						<p>We support local producers as much as we possibly can when buying our ingredients. 75% of our ingredients are sourced within 30km
 						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
 						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
@@ -394,7 +572,7 @@
 						of our location. We have also won numerous awards for our cakes and Richie only hires those who have a true passion for baking. We supply 
 						for all types of occasions no matter how obscure or esoteric. You can order online or over the phone. If you want to make an order or query
 						do not hesitate to fill out the form and somebody will reply to you via email asap.</p>
-					</div>
+				
                 </div>
             </div>
          </section>

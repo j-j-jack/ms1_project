@@ -111,14 +111,42 @@ nav{
 	width: 70%;
 }
 
+#thumbnail-1-b{
+	width: 70%;
+}
+#thumbnail-2-b{
+	width: 70%;
+}
+
+#thumbnail-3-b{
+	width: 70%;
+}
+
 #richie-photo{
+	width: 80%;
+}
+
+#richie-photo-b{
 	width: 80%;
 }
 
 #cafe-photo{
 	width: 80%;
 }
+
+#cafe-photo-b{
+	width: 80%;
+}
+
+#cafe-photo-c{
+	width: 80%;
+}
+
 #ingredients-photo{
+	width: 80%;
+}
+
+#ingredients-photo-b{
 	width: 80%;
 }
 
@@ -126,6 +154,16 @@ nav{
 	height: 20vh;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
+}
+
+#terms-b{
+	height: 20vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#about-nav-lg{
+	margin-top: 30vh;
 }
 
 
@@ -150,10 +188,20 @@ footer h2{
 
 
 /*--------------------------------------------------------------------------------------------------- Media Queries */
-
+@media only screen and (min-width: 768px)
+{
+	.hidden-sm-up{
+		visibility: hidden;
+		display: none;
+	}
+}
 	
 @media only screen and (max-width: 767px) {
-	
+
+.hidden-sm-down{
+	visibility: hidden;
+	display: none;
+	}
 
 .footer-info-div{
 	background-color: rgb(0, 64, 128);
@@ -199,6 +247,19 @@ footer h2{
 {
 	.location-info{
 	margin-top: 5vh;
+}
+
+.hidden-md-down{
+	visibility: hidden;
+	display: none;
+}
+}
+
+@media only screen and (min-width: 992px)
+{
+.hidden-md-up{
+	visibility: hidden;
+	display: none;
 }
 }
 
