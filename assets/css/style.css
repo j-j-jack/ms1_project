@@ -22,6 +22,7 @@
 	--order-title-color: rgb(18, 197, 224);
 	--titles-color: rgb(121, 252, 158);
 	--modal-background-color: rgb(40, 40, 40);
+	--backboard: black;
 } 
 /*--------------------------------------------------------------------------------------------------- colours */
 
@@ -111,14 +112,19 @@ nav{
 /*--------------------------------------------------------------------------------------------------- home title */
 
 
-
+.title-background{
+	background-color: var(--backboard);
+	padding: 0;
+	border: 2px solid white;
+	margin-bottom: 2vh;
+}
 	
 #home-banner{
 	padding-bottom: 5vh;
 	margin-bottom: 5vh;
 }
 #home-title{
-	font-family: "Sarina", cursive;
+	font-family: "play", cursive;
 	text-align: center;
 	font-size: 500%;
 	color: var(--logo-color);
@@ -265,7 +271,7 @@ nav{
 .about-title{
 	margin-bottom: 5vh;
 	color: var(--about-title-color);
-	font-family: "Sarina", cursive;
+	font-family: "play", cursive;
 }
 
 
@@ -305,7 +311,11 @@ nav{
 /*--------------------------------------------------------------------------------------------------- order page*/
 #order-title{
 	color: var(--order-title-color);
-	font-family: "Sarina", cursive;
+	font-family: "play", cursive;
+}
+
+.price-table{
+	margin-bottom: 10vh;
 }
 /*--------------------------------------------------------------------------------------------------- footer */
 
