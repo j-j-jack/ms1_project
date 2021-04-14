@@ -120,12 +120,23 @@ nav{
 }
 .about-drop-text{
 	color: var(--default-text-color);
-	border: 2px solid var(--button-color);
 }
 .about-drop-text:hover{
-	background-color: var(--button-color);
-	color: var(--default-text-color);
+	color: #fff;
+	 background-color: var(--header-nav-color);
 }
+
+#navToggle{
+	background-color: var(--header-nav-color);
+}
+
+.dropdown-item.active.about-drop-text{
+	background-color: var(--header-nav-color);
+}
+
+
+
+	
 
 /*--------------------------------------------------------------------------------------------------- home title */
 
