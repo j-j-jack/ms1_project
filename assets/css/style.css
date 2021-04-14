@@ -196,10 +196,11 @@ nav{
   }
 }
 
-/*--------------------------------------------------------------------------------------------------- About page */
+/*--------------------------------------------------------------------------------------------------- galleries */
 .thumbnail{
 	filter: brightness(100%);
 	margin-bottom: 10vh;
+	border: 2px solid white;
 }
 
 .thumbnail:hover{
@@ -212,22 +213,15 @@ nav{
 #thumbnail-2{
 	width: 100%;
 }
-
 #thumbnail-3{
 	width: 100%;
 }
 
-#thumbnail-1-b{
-	width: 70%;
-}
-#thumbnail-2-b{
-	width: 70%;
+.caption{
+	font-size: 150%;
 }
 
-#thumbnail-3-b{
-	width: 70%;
-}
-
+/*--------------------------------------------------------------------------------------------------- About page */
 
 
 #richie-photo{
@@ -380,10 +374,12 @@ footer h2{
 }
 
 #thumbnail-1{
+	width: 75%;
 	margin-bottom: 1vh;
 	padding-bottom: 1vh;
 }
 #thumbnail-2{
+	width: 75%;
 	margin-top: 1vh;
 	padding-top: 1vh;
 	margin-bottom: 1vh;
@@ -391,26 +387,12 @@ footer h2{
 }
 
 #thumbnail-3{
+	width: 75%;
 	margin-top: 1vh;
 	padding-top: 1vh;
 }
 
-#thumbnail-1-b{
-	margin-bottom: 1vh;
-	padding-bottom: 1vh;
-}
-#thumbnail-2-b{
-	margin-top: 1vh;
-	padding-top: 1vh;
-	margin-bottom: 1vh;
-	padding-bottom: 1vh;
-	width: 70%;
-}
 
-#thumbnail-3-b{
-	margin-top: 1vh;
-	padding-top: 1vh;
-}
 }
 
 
