@@ -6,23 +6,53 @@
 
 :root{
 	--cafe-map: rgb(252, 235, 146);
+	--logo-color: #ddd;
+	
+	--glow-color-1: rgb(18, 197, 224);
+	--glow-color-2: rgb(19,224,255);
+	--header-nav-color: rgba(40, 40, 40, .3);
+	--background-color: rgb(40, 40, 40);
+	--button-color: rgb(164,20,183);
+	--button-font-color: rgb(252, 235, 146);
+	--default-text-color: rgb(252, 235, 146);
+	--slogan-color: rgb(255,146,224);
 }
 /*--------------------------------------------------------------------------------------------------- colours */
 .nav-bg-color{
-	background-color: rgb(100, 100, 100);
+	background-color: var(--header-nav-color);
 }
 
 
 
 /*--------------------------------------------------------------------------------------------------- General */
 body{
-    color: rgb(240, 120, 22);
+    color: var(--default-text-color);
 	font-family: "play", verdana;
 	background: url("../images/background-1.jpg");
 	background-size: cover;
 	background-repeat: none;
-	background-color: rgb(100, 100, 100);
+	background-color: var(--background-color);
 	
+}
+
+.site-buttons{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid var(--button-color);
+	font-size: 150%;
+	color: var(--button-font-color);
+}
+
+.site-buttons:hover{
+	background-color: var(--button-color);
+}
+
+.button-text{
+color: var(--button-font-color);
+}	
+
+.button-text:hover{
+	text-decoration: none;
+	color: var(--button-font-color)
 }
 
 .text-center{
@@ -58,22 +88,25 @@ nav{
 	font-family: "Sarina", cursive;
 	text-align: center;
 	font-size: 500%;
-	color: rgb(19,224,255);
+	color: var(--logo-color);
+	margin-bottom: 5vh;
 }
 
 #slogan{
 	font-style: italic;
 	text-align: center;
-	color: rgb(255, 148, 228);
+	color: var(--slogan-color);
+	margin-bottom: 5vh;
 }
 
 #home-description{
 	color: rgb(121, 252, 158);
+	margin-bottom: 5vh;
 }
 
 #order-button{
 	text-align: center;
-	margin-bottom: 20vh;
+	margin-bottom: 5vh;
 }
 
 .home-page-map{
@@ -91,6 +124,37 @@ nav{
 	
 }
 
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--glow-color-1), 0 0 40px var(--glow-color-1), 0 0 50px var(--glow-color-1), 
+	0 0 60px var(--glow-color-1),
+	0 0 70px var(--glow-color-1);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px var(--glow-color-1), 0 0 40px var(--glow-color-1), 0 0 50px var(--glow-color-1), 0 0 60px var(--glow-color-1), 0 0 
+	70px var(--glow-color-1), 0 0 80px var(--glow-color-1);
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--glow-color-1), 0 0 40px var(--glow-color-1), 0 0 50px var(--glow-color-1), 
+	0 0 60px var(--glow-color-1),
+	0 0 70px var(--glow-color-1);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px var(--glow-color-1), 0 0 40px var(--glow-color-1), 0 0 50px var(--glow-color-1), 0 0 60px var(--glow-color-1), 0 0 
+	70px var(--glow-color-1), 0 0 80px var(--glow-color-1);
+  }
+}
 /*--------------------------------------------------------------------------------------------------- About page */
 .thumbnail{
 	filter: brightness(60%);
@@ -111,52 +175,18 @@ nav{
 	width: 70%;
 }
 
-#thumbnail-1-b{
-	width: 70%;
-}
-#thumbnail-2-b{
-	width: 70%;
-}
-
-#thumbnail-3-b{
-	width: 70%;
-}
-
 #richie-photo{
-	width: 80%;
-}
-
-#richie-photo-b{
 	width: 80%;
 }
 
 #cafe-photo{
 	width: 80%;
 }
-
-#cafe-photo-b{
-	width: 80%;
-}
-
-#cafe-photo-c{
-	width: 80%;
-}
-
 #ingredients-photo{
 	width: 80%;
 }
 
-#ingredients-photo-b{
-	width: 80%;
-}
-
 #terms{
-	height: 20vh;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
-}
-
-#terms-b{
 	height: 20vh;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
