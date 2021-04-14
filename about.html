@@ -17,7 +17,7 @@
 		
 
 		<div class="container-fluid">
-		<nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color">
+		<nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color navbar-dark">
   
 		
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
 			<div class="collapse navbar-collapse" id="navToggle">
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<li class="nav-item active ml-auto mr-2">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item ml-auto mr-2">
-						<a class="nav-link" href="#">Order/Enquire</a>
+						<a class="nav-link" href="order.html">Order/Enquire</a>
 					</li>
 					<li class="nav-item ml-auto mr-2">
-					<a class="nav-link" href="#">About Us</a>
+					<a class="nav-link" href="about.html">About Us</a>
 					</li>
 					<li class="nav-item ml-auto">
-						<span class="navbar-text"><i class="fa fa-phone-square" aria-hidden="true"></i> - 05394555555</span>
+						<span class="navbar-text" id="nav-phone"><i class="fa fa-phone-square" aria-hidden="true"></i> - 05394555555</span>
 					</li>
 				</ul>
 			</div>
@@ -48,16 +48,16 @@
     </header>
 	
 	
-	<div class="container-xl hidden-md-down page-content" id="about-nav-lg">
+	<div class="container-xl hidden-md-down page-content">
 		<div class="row">
 				<div class="col-12">
-					<h2 class="about-title">About us...</h2>
+					<h1 id="about-title" class="text-center glow">About us...</h1>
 				</div>
 			</div>
 		<div class="row">
 			<div class="col-2">
 				<div class="nav flex-column nav-pills" id="about-nav-tab" role="tablist" aria-orientation="vertical">
-					<a class="nav-link active" id="about-nav-galleries-tab" data-toggle="pill" href="#about-nav-galleries" role="tab" aria-controls="about-nav-galleries" aria-selected="true">Galleries</a>
+					<a class="nav-link" id="about-nav-galleries-tab" data-toggle="pill" href="#about-nav-galleries" role="tab" aria-controls="about-nav-galleries" aria-selected="true">Galleries</a>
 					<a class="nav-link" id="about-nav-who-tab" data-toggle="pill" href="#about-nav-who" role="tab" aria-controls="about-nav-who" aria-selected="false">Who are we?</a>
 					<a class="nav-link" id="about-nav-what-tab" data-toggle="pill" href="#about-nav-what" role="tab" aria-controls="about-nav-what" aria-selected="false">What do we do?</a>
 					<a class="nav-link" id="about-nav-why-tab" data-toggle="pill" href="#about-nav-why" role="tab" aria-controls="about-nav-why" aria-selected="false">Why choose us?</a>
@@ -69,7 +69,7 @@
 					<div class="tab-pane fade show active" id="about-nav-galleries" role="tabpanel" aria-labelledby="about-nav-galleries-tab">
 						<div class="row">
 							<div class="col-12">
-								<h3 class="gallery-title">Our Galleries</h3>
+								<h3 id="gallery-title" class="title-color">Our Galleries</h3>
 							</div>
 						</div>
 						<div class="row">
@@ -87,7 +87,7 @@
 	  
 				<div class="tab-pane fade" id="about-nav-who" role="tabpanel" aria-labelledby="about-nav-who-tab">
 					<div class="row">
-						<div class="col text-center">
+						<div class="col text-center title-color">
 							<h3>Who are we?</h3>
 						</div>
 					</div>
@@ -109,7 +109,7 @@
 	  
 				<div class="tab-pane fade" id="about-nav-what" role="tabpanel" aria-labelledby="about-nav-what-tab">
 					<div class="row">
-						<div class="col text-center">
+						<div class="col text-center title-color">
 							<h3>What do we do?</h3>
 						</div>
 					</div>
@@ -133,7 +133,7 @@
       
 				<div class="tab-pane fade" id="about-nav-why" role="tabpanel" aria-labelledby="about-nav-why-tab">
 					<div class="row">
-						<div class="col text-center">
+						<div class="col text-center title-color">
 							<h3>Why choose us?</h3>
 						</div>
 					</div>
@@ -423,17 +423,17 @@
 					<h2 class="about-title">About us...</h2>
 				</div>
 				<div class="col-12">
-					<h3 class="gallery-title">Our Galleries</h3>
+					<h3 class="gallery-title title-color">Our Galleries</h3>
                 </div>
             </div>
 				<div class="row">
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-1 my-sm-1">
+					<div class="col-md-3 offset-md-1 col-7 offset-1 my-1">
 						<img src="assets/images/2018/cupcake-1.jpg" class="thumbnail" id="thumbnail-1-b" data-toggle="modal" data-target="#thumbnail-1-modal">					
 					</div>
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-3 mt-sm-1">
+					<div class="col-md-3 offset-md-1 col-7 offset-3 mt-1">
 						<img src="assets/images/2019/cupcake-1.jpg" class="thumbnail" id="thumbnail-2-b" data-toggle="modal" data-target="#thumbnail-2-modal">					
 					</div>
-					<div class="col-md-3 offset-md-1 col-sm-7 offset-sm-5 mt-sm-1">
+					<div class="col-md-3 offset-md-1 col-7 offset-5 mt-1">
 						<img src="assets/images/2020/cupcake-1.jpg" class="thumbnail" id="thumbnail-3-b" data-toggle="modal" data-target="#thumbnail-3-modal">					
                     </div>
                 </div>
@@ -444,7 +444,7 @@
 		</section>
 		<section>
 			<div class="row">
-				<div class="col text-center">
+				<div class="col text-center title-color">
 					<h3>Who are we?</h3>
 				</div>
 			</div>
@@ -516,7 +516,7 @@
 			</div>
 			
 			<div class="row">
-				<div class="col text-center">
+				<div class="col text-center title-color">
 					<h3>Why choose us?</h3>
 				</div>
 			</div>
