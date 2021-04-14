@@ -111,6 +111,18 @@ nav{
     color: var(--default-text-color);
 }
 
+#about-drop{
+	background-color: var(--header-nav-color);
+}
+.about-drop-text{
+	color: var(--default-text-color);
+	border: 2px solid var(--button-color);
+}
+.about-drop-text:hover{
+	background-color: var(--button-color);
+	color: var(--default-text-color);
+}
+
 /*--------------------------------------------------------------------------------------------------- home title */
 
 
@@ -225,12 +237,9 @@ nav{
 
 
 #richie-photo{
-	width: 80%;
+	width: 100%;
 }
 
-#richie-photo-b{
-	width: 80%;
-}
 
 
 

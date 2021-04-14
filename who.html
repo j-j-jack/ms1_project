@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order/Enquire</title>
+    <title>Who we are</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,10 +33,10 @@
                         <li class="nav-item ml-auto mr-2">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item ml-auto active mr-2">
+                        <li class="nav-item ml-auto mr-2">
                             <a class="nav-link" href="order.html">Order/Enquire</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item active dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About us
@@ -51,6 +51,7 @@
                             <a class="nav-link" href="gallery.html">Galleries</a>
                         </li>
 
+
                     </ul>
                 </div>
             </nav>
@@ -60,126 +61,39 @@
 
     </header>
 
+
+
     <div class="container-xl page-content">
         <div class="row">
             <div class="col-8 offset-2">
-                <h1 id="order-title" class="glow title-background">Order/Enquire</h1>
+                <h1 class="title-background glow">About us...</h1>
             </div>
-        </div>
-        <div class="row hidden-md-up">
-            <div class="col">
-                <h3 class="title-color">Pricing information</h3>
-                <p> pricing for cupcakes are as follows: </p><br>
-                <table class="price-table">
-                    <tr>
-                        <th>No. of cupcakes</th>
-                        <th>Price per cupcake</th>
-                    </tr>
-                    <tr>
-                        <td>&lt;50</td>
-                        <td>€3.20</td>
-                    </tr>
-                    <tr>
-                        <td>50-99</td>
-                        <td>€2.95</td>
-                    </tr>
-                    <tr>
-                        <td>100-199</td>
-                        <td>€2.75</td>
-                    </tr>
-                    <tr>
-                        <td>200-399</td>
-                        <td>€2.60/cupcake</td>
-                    </tr>
-                    <tr>
-                        <td>400+</td>
-                        <td>€2.50</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <form action="index.html" method="post">
-                    <!-- the action is set to index.html only as an example as form is not connected to real server"-->
-                    <div class="form-row">
-                        <div class="col-md-6 col-lg-12">
-                            <div class="form-group">
-                                <label for="name-input">Name</label>
-                                <input type="name" class="form-control" id="name-input" placeholder="full name"
-                                    required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email-input">Email address</label>
-                                <input type="tel" class="form-control" name="email" id="email-input"
-                                    placeholder="name@example.com" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone-input">Phone Number(0ptional)</label>
-                                <input type="name" class="form-control" id="phone-input"
-                                    placeholder="phone number(optional)">
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="enquiry-type" id="order"
-                                    value="order" required>
-                                <label class="form-check-label" for="order">Order</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="general-enquiry"
-                                        id="general-enquiry" value="general-enquiry">
-                                    <label class="form-check-label" for="general-enquiry">General enquiry
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-12">
-                            <div class="form-group ">
-                                <label for="order-form-textarea">Use the box below to provide any information
-                                    about the cupcakes you wish to order
-                                    (flavours, design, custom text, amount etc). You may also use the space for any
-                                    general enquiry. Somebody will reply to you as soon as possible in order to proceed
-                                    to the next step</label>
-                                <textarea class="form-control" id="order-from-text-area" rows="9" required></textarea>
-                            </div>
-                            <button type="submit" class="btn site-buttons btn-lg">Submit</button>
-                        </div>
+            <article>
+                <div class="row">
+                    <div class="col-md-5 offset-md-1 col-10 offset-1">
+                        <p>
+                            <img src="assets/images/richie-mulligan.jpg" id="richie-photo" class="mx-auto">
+                        </p>
                     </div>
-                </form>
-            </div>
-            <div class="col-4 hidden-md-down">
-                <h3 class="title-color">Pricing information</h3>
-                <p> pricing for cupcakes are as follows: </p><br>
-                <table class="price-table">
-                    <tr>
-                        <th>No. of cupcakes</th>
-                        <th>Price per cupcake</th>
-                    </tr>
-                    <tr>
-                        <td>&lt;50</td>
-                        <td>€3.20</td>
-                    </tr>
-                    <tr>
-                        <td>50-99</td>
-                        <td>€2.95</td>
-                    </tr>
-                    <tr>
-                        <td>100-199</td>
-                        <td>€2.75</td>
-                    </tr>
-                    <tr>
-                        <td>200-399</td>
-                        <td>€2.60/cupcake</td>
-                    </tr>
-                    <tr>
-                        <td>400+</td>
-                        <td>€2.50</td>
-                    </tr>
-                </table>
-            </div>
+                    <div class="col-md-5 col-10 offset-1">
+                        <p>
+                            In 2010 Richie Mulligan quit his job as a truck driver to open up a coffee and confectionary
+                            van
+                            called "Fast cakes".
+                            Along with his enthusiasm for good coffee, baking had been a long-time passion of his. So he
+                            sold his own cakes and creations
+                            on board the van. In 2014, encouraged by the popularity of his cupcakes in particular, he
+                            decided to open up Late night cakes -
+                            an all night cafe and bulk cupcake producer. Richie operated Speed cakes solo. Now, Late
+                            night
+                            cakes has 25 employees
+                            who work through the night to brighten up your day!
+                        </p>
+                    </div>
+                </div>
+            </article>
         </div>
     </div>
-
-
 
     <footer>
         <div class="container-fluid">
@@ -205,17 +119,13 @@
                     <p>Phone Number: 05394555555 </p>
                     <p>Cafe Opening Hours: 9pm - 7am </p>
                     <p>Cupcake tasters: 9am-10am </p>
-
                 </div>
                 <div class="col-sm-12, col-md-4 footer-award-div">
                     <h2>Awards</h2>
                     <p> IQFS Winner - Small Cakes 2020 - Chocolate Stout Cupcake </p>
                     <p> IQFS Highly Commended - Small Cakes 2019 Coconut Lime Cupcake </p>
                     <p> IQFS Winner - Small Cakes 2018 - Raw Vegan Lemon Dream Cupcake </p>
-
-
                 </div>
-
             </div>
         </div>
     </footer>
