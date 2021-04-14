@@ -17,7 +17,7 @@
 	--home-description-color: rgb(121, 252, 158);
 	--footer-color: rgba(40, 40, 40, .3);
 	--footer-heading-color: rgb(121, 252, 158);
-	--nav-phone-color: rgb(121, 252, 158);
+	--nav-phone-color: rgb(18, 197, 224);
 	--about-title-color: rgb(18, 197, 224);
 	--order-title-color: rgb(18, 197, 224);
 	--titles-color: rgb(121, 252, 158);
@@ -102,6 +102,10 @@ nav{
 }
 #nav-phone{
 	color: var(--nav-phone-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--default-text-color);
 }
 
 /*--------------------------------------------------------------------------------------------------- home title */
