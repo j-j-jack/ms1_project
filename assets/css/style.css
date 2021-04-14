@@ -87,6 +87,10 @@ color: var(--button-font-color);
 	background-color: var(--modal-background-color);
 }
 
+article{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
 
 /*--------------------------------------------------------------------------------------------------- Navbar */
 
@@ -238,28 +242,19 @@ nav{
 
 #richie-photo{
 	width: 100%;
+	border: 2px solid white;
 }
-
-
-
-
 
 
 #cafe-photo{
-	width: 80%;
+	width: 100%;
+	border: 2px solid white;
 }
 
-#cafe-photo-b{
-	width: 80%;
-}
-#cafe-photo-c{
-	width: 80%;
-}
+
 #ingredients-photo{
-	width: 80%;
-}
-#ingredients-photo-b{
-	width: 80%;
+	width: 100%;
+	border: 2px solid white;
 }
 
 #terms{
@@ -314,6 +309,7 @@ nav{
 	border: 2px solid var(--button-color);
 	font-size: 120%;
 	}
+	
 /*--------------------------------------------------------------------------------------------------- order page*/
 #order-title{
 	color: var(--order-title-color);
