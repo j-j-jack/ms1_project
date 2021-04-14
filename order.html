@@ -93,16 +93,16 @@
 
         <div class="row">
             <div class="col-12 col-lg-8">
-                <form>
+                <form action="index.html" method="post"> <!-- the action is set to index.html only as an example as form is not connected to real server"-->
                     <div class="form-row">
                         <div class="col-md-6 col-lg-12">
                             <div class="form-group">
                                 <label for="name-input">Name</label>
-                                <input type="name" class="form-control" id="name-input" placeholder="full name">
+                                <input type="name" class="form-control" id="name-input" placeholder="full name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email-input">Email address</label>
-                                <input type="tel" class="form-control" id="email-input" placeholder="name@example.com">
+                                <input type="tel" class="form-control" name="email" id="email-input" placeholder="name@example.com" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone-input">Phone Number(0ptional)</label>
@@ -111,7 +111,7 @@
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="enquiry-type" id="order"
-                                    value="order" checked>
+                                    value="order" required>
                                 <label class="form-check-label" for="order">Order</label>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="general-enquiry"
@@ -128,29 +128,9 @@
                                     (flavours, design, custom text, amount etc). You may also use the space for any
                                     general enquiry. Somebody will reply to you as soon as possible in order to proceed
                                     to the next step</label>
-                                <textarea class="form-control" id="order-from-text-area" rows="9"></textarea>
+                                <textarea class="form-control" id="order-from-text-area" rows="9" required></textarea>
                             </div>
-                            <button type="button" class="btn site-buttons btn-lg" data-toggle="modal"
-                                data-target="#confirm-submission">Submit</button>
-                            <div class="modal" tabindex="-1" role="dialog" id="confirm-submission">
-                                <div class="modal-dialog modal-color" role="document">
-                                    <div class="modal-content modal-color">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Thank you for your query!</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>We will reply as soon as possible via email.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="index.html"><button type="button" class="btn btn-lg site-buttons">Confirm
-                                                    submission and return home</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <button type="submit" class="btn site-buttons btn-lg">Submit</button>
                         </div>
                     </div>
                 </form>
