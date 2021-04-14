@@ -20,7 +20,7 @@
 
 
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color">
+            <nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color navbar-dark">
 
 
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navToggle"
@@ -30,38 +30,37 @@
 
                 <div class="collapse navbar-collapse" id="navToggle">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item ml-auto mr-2">
-                            <a class="nav-link" href="index.html">Home </a>
-                        </li>
                         <li class="nav-item active ml-auto mr-2">
-                            <a class="nav-link" href="order.html">Order/Enquire <span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ml-auto mr-2">
-                            <a class="nav-link" href="about.html">About Us </a>
+                            <a class="nav-link" href="order.html">Order/Enquire</a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2">
+                            <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item ml-auto">
-                            <span class="navbar-text"><i class="fa fa-phone-square" aria-hidden="true"></i> -
-                                05394555555</span>
+                            <span class="navbar-text" id="nav-phone"><i class="fa fa-phone-square"
+                                    aria-hidden="true"></i> - 05394555555</span>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
 
-        <img src="assets/images/late-night-cakes.svg" class="navbar-logo">
+        <a href="index.html"><img src="assets/images/late-night-cakes.svg" class="navbar-logo"></a>
 
     </header>
 
     <div class="container-xl page-content">
         <div class="row">
             <div class="col">
-                <h1>Order/Enquire</h1>
+                <h1 id="order-title" class="glow">Order/Enquire</h1>
             </div>
         </div>
         <div class="row hidden-md-up">
             <div class="col">
-                <h3>Pricing information</h3>
+                <h3 class="title-color">Pricing information</h3>
                 <p> pricing for cupcakes are as follows: </p><br>
                 <table class="price-table">
                     <tr>
@@ -133,11 +132,11 @@
                                     to the next step</label>
                                 <textarea class="form-control" id="order-from-text-area" rows="9"></textarea>
                             </div>
-                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                            <button type="button" class="btn site-buttons btn-lg" data-toggle="modal"
                                 data-target="#confirm-submission">Submit</button>
                             <div class="modal" tabindex="-1" role="dialog" id="confirm-submission">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
+                                <div class="modal-dialog modal-color" role="document">
+                                    <div class="modal-content modal-color">
                                         <div class="modal-header">
                                             <h5 class="modal-title">Thank you for your query!</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -148,7 +147,8 @@
                                             <p>We will reply as soon as possible via email.</p>
                                         </div>
                                         <div class="modal-footer">
-                                            <a href="index.html"><button type="button" class="btn btn-primary">Confirm
+                                            <a href="index.html"><button type="button"
+                                                    class="btn btn-lg site-buttons">Confirm
                                                     submission and return home</button></a>
                                         </div>
                                     </div>
@@ -159,7 +159,7 @@
                 </form>
             </div>
             <div class="col-4 hidden-md-down">
-                <h3>Pricing information</h3>
+                <h3 class="title-color">Pricing information</h3>
                 <p> pricing for cupcakes are as follows: </p><br>
                 <table class="price-table">
                     <tr>
