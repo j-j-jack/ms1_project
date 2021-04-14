@@ -41,7 +41,9 @@ body{
 }
 
 #gallery-title{
-	text-decoration: none;
+	margin-bottom: 10vh;
+	color: var(--about-title-color);
+	font-family: "play", cursive;
 }
 
 
@@ -196,22 +198,23 @@ nav{
 
 /*--------------------------------------------------------------------------------------------------- About page */
 .thumbnail{
-	filter: brightness(60%);
+	filter: brightness(100%);
 	margin-bottom: 10vh;
 }
 
 .thumbnail:hover{
-	filter: brightness(100%);
+	filter: brightness(90%);
+	cursor: pointer;
 }
 #thumbnail-1{
-	width: 70%;
+	width: 100%;
 }
 #thumbnail-2{
-	width: 70%;
+	width: 100%;
 }
 
 #thumbnail-3{
-	width: 70%;
+	width: 100%;
 }
 
 #thumbnail-1-b{
