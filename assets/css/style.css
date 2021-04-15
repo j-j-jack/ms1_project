@@ -35,7 +35,6 @@ body{
 	font-family: "play", verdana;
 	background: url("../images/background-1.jpg");
 	background-size: cover;
-	background-repeat: none;
 	background-color: var(--background-color);
 	
 }
@@ -177,13 +176,7 @@ nav{
 	margin-bottom: 5vh;
 }
 
-.home-page-map{
-	margin-top: 5vh;
-	width: 700;
-	height: 700;
-	
-	border: 0;
-}
+
 
 .location-info{
 	color: var(--default-text-color);
