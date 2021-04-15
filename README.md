@@ -131,7 +131,7 @@ W3 jigsaw css3 validator was used to validate the style sheet - it passes throug
 * as somebody interested in buying cupcakes, I want to discover when the cafe is open to sample cupcakes 
 -on loading the site the user searches through the body of the home page. This is not a large amount of text and the user does not waste much time.
 -the user then searches the footer as this is a common location of such information and finds the information easily.
-[opening time for tasters found by customer](documents/testing/user-story-1.png)
+[opening time for tasters found by customer](documents/testing/user-story-1.PNG)
 
 * as a lorry driver in the area I want to find the location of the cafe
 -on entering the site the map is clearly visible due to content hinting
